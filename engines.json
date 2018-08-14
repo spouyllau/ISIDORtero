@@ -1,5 +1,35 @@
 [
 	{
+		"name": "ISIDORE - global search",
+		"alias": "ISIDORE",
+		"icon": "https://www.rechercheisidore.fr/favicon.ico",
+		"_urlTemplate": "https://www.rechercheisidore.fr/search/?q={z:title}",
+		"description": "ISIDORE is an academic search engine for arts and humanities.",
+		"hidden": false,
+		"_urlParams": [],
+		"_urlNamespaces": {
+			"rft": "info:ofi/fmt:kev:mtx:journal",
+			"z": "http://www.zotero.org/namespaces/openSearch#",
+			"": "http://a9.com/-/spec/opensearch/1.1/"
+		},
+		"_iconSourceURI": "https://www.rechercheisidore.fr/favicon.ico"
+	},
+	{
+		"name": "ISIDORE - first author",
+		"alias": "ISIDORE",
+		"icon": "https://www.rechercheisidore.fr/favicon.ico",
+		"_urlTemplate": "https://www.rechercheisidore.fr/search/?creator={rft:aulast?}+{rft:aufirst?}",
+		"description": "ISIDORE is an academic search engine for arts and humanities.",
+		"hidden": false,
+		"_urlParams": [],
+		"_urlNamespaces": {
+			"rft": "info:ofi/fmt:kev:mtx:journal",
+			"z": "http://www.zotero.org/namespaces/openSearch#",
+			"": "http://a9.com/-/spec/opensearch/1.1/"
+		},
+		"_iconSourceURI": "https://www.rechercheisidore.fr/favicon.ico"
+	},
+	{
 		"name": "CrossRef Lookup",
 		"alias": "CrossRef",
 		"icon": "file:///Users/stephanepouyllau/Zotero/locate/CrossRef%20Lookup.ico",
@@ -27,35 +57,5 @@
 			"": "http://a9.com/-/spec/opensearch/1.1/"
 		},
 		"_iconSourceURI": "https://scholar.google.com/favicon.ico"
-	},
-	{
-		"name": "ISIDORE - global search",
-		"alias": "ISIDORE",
-	  "icon": "https://www.rechercheisidore.fr/favicon.ico",
-		"_urlTemplate": "https://www.rechercheisidore.fr/search/?q={z:title}",
-		"description": "ISIDORE is an academic search engine for arts and humanities.",
-		"hidden": false,
-		"_urlParams": [],
-		"_urlNamespaces": {
-			"rft": "info:ofi/fmt:kev:mtx:journal",
-			"z": "http://www.zotero.org/namespaces/openSearch#",
-			"": "http://a9.com/-/spec/opensearch/1.1/"
-		},
-		"_iconSourceURI": "https://www.rechercheisidore.fr/favicon.ico"
-	},
-	{
-	  "name": "ISIDORE - first author",
-	  "alias": "ISIDORE",
-	  "icon": "https://www.rechercheisidore.fr/favicon.ico",
-	  "_urlTemplate": "https://www.rechercheisidore.fr/search/?creator={rft:aulast?}+{rft:aufirst?}",
-	  "description": "ISIDORE is an academic search engine for arts and humanities.",
-	  "hidden": false,
-	  "_urlParams": [],
-	  "_urlNamespaces": {
-	    "rft": "info:ofi/fmt:kev:mtx:journal",
-	    "z": "http://www.zotero.org/namespaces/openSearch#",
-	    "": "http://a9.com/-/spec/opensearch/1.1/"
-	  },
-	  "_iconSourceURI": "https://www.rechercheisidore.fr/favicon.ico"
 	}
 ]
