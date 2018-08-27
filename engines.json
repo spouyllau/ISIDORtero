@@ -1,7 +1,7 @@
 [
 
 	{
-		"name": "ISIDORE, aide-moi à trouver qu'il/elle a publié.",
+		"name": "ISIDORE, aide-moi à trouver ce qu'il/elle a publié.",
 		"alias": "ISIDORE",
 		"icon": "https://www.rechercheisidore.fr/favicon.ico",
 		"_urlTemplate": "https://www.rechercheisidore.fr/search/?creator={rft:aulast?}+{rft:aufirst?}",
@@ -16,7 +16,7 @@
 		"_iconSourceURI": "https://www.rechercheisidore.fr/favicon.ico"
 	},
 	{
-		"name": "ISIDORE, qu'as-tu sur l'auteur•e ?",
+		"name": "ISIDORE, qu'as-tu sur l'auteur/auteure ?",
 		"alias": "ISIDORE",
 		"icon": "https://www.rechercheisidore.fr/favicon.ico",
 		"_urlTemplate": "https://www.rechercheisidore.fr/search/?q=\"{rft:aufirst?}+{rft:aulast?}\"",

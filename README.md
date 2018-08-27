@@ -1,21 +1,33 @@
-# ISIDORtero
-## Expansion de recherche ISIDORE pour Zotero
+# Connecteurs ISIDORE pour Zotero
+## Enrichir sa bibliothèque Zotero avec ISIDORE
 
-Le fichier engines.json permet d'ajouter des moteurs de recherche à Zotero afin de rechercher en ligne un document référencé dans sa bibliothèque Zotero. Il est également possible d'étendre la recherche à partir des auteurs, des mots clés du document référencé dans différents moteur de recherche. Dans ce cadre, nous proposons ici le code permettant d'utiliser ISIDORE depuis Zotero.
+L'outil Zotero permet d'utiliser des moteurs de recherche pour rechercher ou completer des références bibliographiques. Nous proposons ici deux connecteurs ISIDORE pour Zotero permettant d'utiliser ISIDORE pour completer sa bibliothèque de références bibliographiques.
 
 ### Fonctions
 
 L'ajout d'ISIDORE à Zotero permet :
 
-- Mode "global search" permet de rechercher le document dans ISIDORE à partir des mots du titre.
-- Mode "first author" permet de rechercher dans ISIDORE sur le premier auteur d'un document.
+- De compléter des références à partir d'une recherche sur le nom de l'auteur ou de l'auteure : c'est le «ISIDORE, aide-moi à trouver ce qu'il/elle a publié.»
+- De trouver des documents dans lequel l'auteure ou l'auteur est cité : c'est le «ISIDORE, qu'as-tu sur l'auteur/auteure ?»
+
+### Fonctionnement
+
+En sélectionnant une référence dans Zotero, il suffit d'ouvrir avec la flèche verte située à droite du champ de recherche des références :
+
+![Zotero](Ex001.png "Zotero")
+
+Puis de sélectionner les liens "ISIDORE, ..." de votre choix :
+
+![Zotero](Ex002.png "Zotero")
+
+Une fenêtre de votre navigateur s'ouvre alors avec la réponses proposées par ISIDORE.
 
 ### Installation :
 
 Fermez votre Zotero, Ouvrir le fichier <Zotero>/locate/engines.json (ex. sous Mac : Users/utilisateur/Zotero/locate) dans un éditeur de texte (Atom, TextEdit, etc.) et ajoutez juste après le premier [ le code json suivant :
 
 `{
-  "name": "ISIDORE - global search",
+  "name": "ISIDORE, aide-moi à trouver ce qu'il/elle a publié.",
   "alias": "ISIDORE",
   "icon": "https://www.rechercheisidore.fr/favicon.ico",
   "_urlTemplate": "https://www.rechercheisidore.fr/search/?q={z:title}",
@@ -30,7 +42,7 @@ Fermez votre Zotero, Ouvrir le fichier <Zotero>/locate/engines.json (ex. sous Ma
   "_iconSourceURI": "https://www.rechercheisidore.fr/favicon.ico"
 },
 {
-  "name": "ISIDORE - first author",
+  "name": "ISIDORE, qu'as-tu sur l'auteur/auteure ?",
   "alias": "ISIDORE",
   "icon": "https://www.rechercheisidore.fr/favicon.ico",
   "_urlTemplate": "https://www.rechercheisidore.fr/search/?creator={rft:aulast?}+{rft:aufirst?}",
@@ -48,4 +60,4 @@ Fermez votre Zotero, Ouvrir le fichier <Zotero>/locate/engines.json (ex. sous Ma
 ## Crédits
 
 Auteur : Stéphane Pouyllau -
-Remerciements : Caroline Muller, Laurent Capelli, Adrien Desseigne, Elifsu Sabuncu, Brenton M. Wiernik.
+Remerciements : Caroline Muller, Laurent Capelli, Adrien Desseigne, Elifsu Sabuncu.
