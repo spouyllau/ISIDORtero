@@ -1,7 +1,8 @@
-# ISIDORtero
-## Expansion de recherche ISIDORE pour Zotero
+# Connecteurs ISIDORE pour Zotero
 
-Le fichier engines.json permet d'ajouter des moteurs de recherche à Zotero afin de rechercher des compléments d'information en ligne venant d'un document de sa bibliothèque Zotero. Ainsi, il est possible d'utiliser ISIDORE pour completer sa bibliothèque de références dans Zotero. Nous proposons ici l'ajout d'ISIDORE à Zotero.
+## Enrichir sa bibliothèque Zotero avec ISIDORE
+
+L'outil Zotero permet d'utiliser des moteurs de recherche pour rechercher ou completer des références bibliographiques. Nous proposons ici deux connecteurs ISIDORE pour Zotero permettant d'utiliser ISIDORE pour completer sa bibliothèque de références bibliographiques à partir de recherche sur les auteurs.
 
 ### Fonctions
 
