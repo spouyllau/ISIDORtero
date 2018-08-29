@@ -61,4 +61,4 @@ Fermez votre Zotero, Ouvrir le fichier <Zotero>/locate/engines.json (ex. sous Ma
 ## Crédits
 
 Auteur : Stéphane Pouyllau -
-Remerciements : Caroline Muller, Laurent Capelli, Adrien Desseigne, Elifsu Sabuncu.
+Remerciements : Caroline Muller (pour les tests), Laurent Capelli, Adrien Desseigne, Elifsu Sabuncu.
