@@ -31,8 +31,8 @@ Fermez votre Zotero, Ouvrir le fichier <Zotero>/locate/engines.json (ex. sous Ma
   "name": "ISIDORE, aide-moi à trouver ce qu'il/elle a publié.",
   "alias": "ISIDORE",
   "icon": "https://www.rechercheisidore.fr/favicon.ico",
-  "_urlTemplate": "https://www.rechercheisidore.fr/search/?q={z:title}",
-  "description": "ISIDORE is an academic search engine for arts and humanities.",
+  "_urlTemplate": "https://www.rechercheisidore.fr/search/?creator={rft:aulast?}+{rft:aufirst?}",
+  "description": "ISIDORE is an academic search engine for arts and humanities in open science.",
   "hidden": false,
   "_urlParams": [],
   "_urlNamespaces": {
@@ -46,8 +46,8 @@ Fermez votre Zotero, Ouvrir le fichier <Zotero>/locate/engines.json (ex. sous Ma
   "name": "ISIDORE, qu'as-tu sur l'auteur/auteure ?",
   "alias": "ISIDORE",
   "icon": "https://www.rechercheisidore.fr/favicon.ico",
-  "_urlTemplate": "https://www.rechercheisidore.fr/search/?creator={rft:aulast?}+{rft:aufirst?}",
-  "description": "ISIDORE is an academic search engine for arts and humanities.",
+  "_urlTemplate": "https://www.rechercheisidore.fr/search/?q=\"{rft:aufirst?}+{rft:aulast?}\"",
+  "description": "ISIDORE is an academic search engine for arts and humanities in open science.",
   "hidden": false,
   "_urlParams": [],
   "_urlNamespaces": {
