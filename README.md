@@ -1,5 +1,7 @@
 # Connecteurs ISIDORE pour Zotero
 
+(for english version above)
+
 ## Enrichir sa bibliothèque Zotero avec ISIDORE
 
 L'outil Zotero permet d'utiliser des moteurs de recherche pour rechercher ou completer des références bibliographiques. Nous proposons ici deux connecteurs ISIDORE pour Zotero permettant d'utiliser ISIDORE pour completer sa bibliothèque de références bibliographiques à partir de recherche sur les auteurs.
@@ -58,7 +60,42 @@ Fermez votre Zotero, Ouvrir le fichier <Zotero>/locate/engines.json (ex. sous Ma
   "_iconSourceURI": "https://www.rechercheisidore.fr/favicon.ico"
 },`
 
+### English version
+
+Connectors are available for english people, please use engines_en.json :
+
+`{
+  "name": "ISIDORE, help me find what this author has published.",
+  "alias": "ISIDORE",
+  "icon": "https://www.rechercheisidore.fr/favicon.ico",
+  "_urlTemplate": "https://www.rechercheisidore.fr/search/?creator={rft:aulast?}+{rft:aufirst?}",
+  "description": "ISIDORE is an academic search engine for arts and humanities in open science.",
+  "hidden": false,
+  "_urlParams": [],
+  "_urlNamespaces": {
+    "rft": "info:ofi/fmt:kev:mtx:journal",
+    "z": "http://www.zotero.org/namespaces/openSearch#",
+    "": "http://a9.com/-/spec/opensearch/1.1/"
+  },
+  "_iconSourceURI": "https://www.rechercheisidore.fr/favicon.ico"
+},
+{
+  "name": "ISIDORE, what do you have about this author?",
+  "alias": "ISIDORE",
+  "icon": "https://www.rechercheisidore.fr/favicon.ico",
+  "_urlTemplate": "https://www.rechercheisidore.fr/search/?q=\"{rft:aufirst?}+{rft:aulast?}\"",
+  "description": "ISIDORE is an academic search engine for arts and humanities in open science.",
+  "hidden": false,
+  "_urlParams": [],
+  "_urlNamespaces": {
+    "rft": "info:ofi/fmt:kev:mtx:journal",
+    "z": "http://www.zotero.org/namespaces/openSearch#",
+    "": "http://a9.com/-/spec/opensearch/1.1/"
+  },
+  "_iconSourceURI": "https://www.rechercheisidore.fr/favicon.ico"
+},`  
+
 ## Crédits
 
 Auteur : Stéphane Pouyllau -
-Remerciements : Caroline Muller (pour les tests), Laurent Capelli, Adrien Desseigne, Elifsu Sabuncu.
+Remerciements : Caroline Muller (pour les tests), Sean Takats, Laurent Capelli, Adrien Desseigne, Elifsu Sabuncu.
