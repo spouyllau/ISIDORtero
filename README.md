@@ -1,6 +1,6 @@
 # Connecteurs ISIDORE pour Zotero
 
-(for english version above)
+(English version above)
 
 ## Enrichir sa bibliothèque Zotero avec ISIDORE
 
