@@ -34,7 +34,7 @@ Fermez votre Zotero, Ouvrir le fichier <Zotero>/locate/engines.json (ex. sous Ma
   "alias": "ISIDORE",
   "icon": "https://www.rechercheisidore.fr/favicon.ico",
   "_urlTemplate": "https://www.rechercheisidore.fr/search/?creator={rft:aulast?}+{rft:aufirst?}",
-  "description": "ISIDORE is an academic search engine for arts and humanities in open science.",
+  "description": "ISIDORE est le moteur de recherche académique des SHS.",
   "hidden": false,
   "_urlParams": [],
   "_urlNamespaces": {
@@ -49,7 +49,7 @@ Fermez votre Zotero, Ouvrir le fichier <Zotero>/locate/engines.json (ex. sous Ma
   "alias": "ISIDORE",
   "icon": "https://www.rechercheisidore.fr/favicon.ico",
   "_urlTemplate": "https://www.rechercheisidore.fr/search/?q=\"{rft:aufirst?}+{rft:aulast?}\"",
-  "description": "ISIDORE is an academic search engine for arts and humanities in open science.",
+  "description": "ISIDORE est le moteur de recherche académique des SHS.",
   "hidden": false,
   "_urlParams": [],
   "_urlNamespaces": {
