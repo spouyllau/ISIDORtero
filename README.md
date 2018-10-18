@@ -27,7 +27,7 @@ Une fenêtre de votre navigateur s'ouvre alors avec la réponses proposées par 
 
 ### Installation :
 
-Fermez votre Zotero, Ouvrir le fichier <Zotero>/locate/engines.json (ex. sous Mac : Users/utilisateur/Zotero/locate) dans un éditeur de texte (Atom, TextEdit, etc.) et ajoutez juste après le premier [ le code json suivant :
+Fermez votre Zotero, Ouvrir le fichier <Zotero>/locate/engines.json (ex. sous Mac : Users/utilisateur/Zotero/locate ou voir https://www.zotero.org/support/zotero_data) dans un éditeur de texte (Atom, TextEdit, etc.) et ajoutez juste après le premier [ le code json suivant :
 
 `{
   "name": "ISIDORE, aide-moi à trouver ce qu'il/elle a publié.",
