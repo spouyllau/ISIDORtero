@@ -27,7 +27,7 @@ Une fenêtre de votre navigateur s'ouvre alors avec la réponses proposées par 
 
 ### Installation :
 
-Fermez votre Zotero, Ouvrir le fichier <Zotero>/locate/engines.json (ex. sous Mac : Users/utilisateur/Zotero/locate ou voir https://www.zotero.org/support/zotero_data) dans un éditeur de texte (Atom, TextEdit, etc.) et ajoutez juste après le premier [ le code json suivant :
+Fermez votre Zotero, Ouvrir le fichier <Zotero>/locate/engines.json (ex. sous Mac : Users/utilisateur/Zotero/locate ou voir https://www.zotero.org/support/zotero_data) dans un éditeur de texte (Atom, TextEdit, etc.) et ajoutez juste après le premier [ le code json contenu dans engines.json ou le code suivant :
 
 `{
   "name": "ISIDORE, aide-moi à trouver ce qu'il/elle a publié.",
@@ -62,38 +62,7 @@ Fermez votre Zotero, Ouvrir le fichier <Zotero>/locate/engines.json (ex. sous Ma
 
 ### English version
 
-Connectors are available for english people, please use engines_en.json :
-
-`{
-  "name": "ISIDORE, help me find what this author has published.",
-  "alias": "ISIDORE",
-  "icon": "https://isidore.science/favicon.ico",
-  "_urlTemplate": "https://isidore.science/s?q=author:\"{rft:aulast?}, {rft:aufirst?}\"",
-  "description": "ISIDORE is an academic search engine for arts and humanities in open science.",
-  "hidden": false,
-  "_urlParams": [],
-  "_urlNamespaces": {
-    "rft": "info:ofi/fmt:kev:mtx:journal",
-    "z": "http://www.zotero.org/namespaces/openSearch#",
-    "": "http://a9.com/-/spec/opensearch/1.1/"
-  },
-  "_iconSourceURI": "https://www.rechercheisidore.fr/favicon.ico"
-},
-{
-  "name": "ISIDORE, what do you have about this author?",
-  "alias": "ISIDORE",
-  "icon": "https://isidore.science/favicon.ico",
-  "_urlTemplate": "https://isidore.science/s?q=\"{rft:aufirst?}+{rft:aulast?}\"",
-  "description": "ISIDORE is an academic search engine for arts and humanities in open science.",
-  "hidden": false,
-  "_urlParams": [],
-  "_urlNamespaces": {
-    "rft": "info:ofi/fmt:kev:mtx:journal",
-    "z": "http://www.zotero.org/namespaces/openSearch#",
-    "": "http://a9.com/-/spec/opensearch/1.1/"
-  },
-  "_iconSourceURI": "https://isidore.science/favicon.ico"
-},`  
+Connectors are available for english people, please use engines_en.json.
 
 ## Crédits
 
