@@ -32,8 +32,8 @@ Fermez votre Zotero, Ouvrir le fichier <Zotero>/locate/engines.json (ex. sous Ma
 `{
   "name": "ISIDORE, aide-moi à trouver ce qu'il/elle a publié.",
   "alias": "ISIDORE",
-  "icon": "https://www.rechercheisidore.fr/favicon.ico",
-  "_urlTemplate": "https://www.rechercheisidore.fr/search/?creator={rft:aulast?}+{rft:aufirst?}",
+  "icon": "https://isidore.science/favicon.ico",
+  "_urlTemplate": "https://isidore.science/s?q=author:\"{rft:aulast?}, {rft:aufirst?}\"",
   "description": "ISIDORE est le moteur de recherche académique des SHS.",
   "hidden": false,
   "_urlParams": [],
@@ -42,13 +42,13 @@ Fermez votre Zotero, Ouvrir le fichier <Zotero>/locate/engines.json (ex. sous Ma
     "z": "http://www.zotero.org/namespaces/openSearch#",
     "": "http://a9.com/-/spec/opensearch/1.1/"
   },
-  "_iconSourceURI": "https://www.rechercheisidore.fr/favicon.ico"
+  "_iconSourceURI": "https://isidore.science/favicon.ico"
 },
 {
   "name": "ISIDORE, qu'as-tu sur l'auteur/auteure ?",
   "alias": "ISIDORE",
-  "icon": "https://www.rechercheisidore.fr/favicon.ico",
-  "_urlTemplate": "https://www.rechercheisidore.fr/search/?q=\"{rft:aufirst?}+{rft:aulast?}\"",
+  "icon": "https://isidore.science/favicon.ico",
+  "_urlTemplate": "https://isidore.science/s?q=\"{rft:aufirst?}+{rft:aulast?}\"",
   "description": "ISIDORE est le moteur de recherche académique des SHS.",
   "hidden": false,
   "_urlParams": [],
@@ -57,7 +57,7 @@ Fermez votre Zotero, Ouvrir le fichier <Zotero>/locate/engines.json (ex. sous Ma
     "z": "http://www.zotero.org/namespaces/openSearch#",
     "": "http://a9.com/-/spec/opensearch/1.1/"
   },
-  "_iconSourceURI": "https://www.rechercheisidore.fr/favicon.ico"
+  "_iconSourceURI": "https://isidore.science/favicon.ico"
 },`
 
 ### English version
@@ -67,8 +67,8 @@ Connectors are available for english people, please use engines_en.json :
 `{
   "name": "ISIDORE, help me find what this author has published.",
   "alias": "ISIDORE",
-  "icon": "https://www.rechercheisidore.fr/favicon.ico",
-  "_urlTemplate": "https://www.rechercheisidore.fr/search/?creator={rft:aulast?}+{rft:aufirst?}",
+  "icon": "https://isidore.science/favicon.ico",
+  "_urlTemplate": "https://isidore.science/s?q=author:\"{rft:aulast?}, {rft:aufirst?}\"",
   "description": "ISIDORE is an academic search engine for arts and humanities in open science.",
   "hidden": false,
   "_urlParams": [],
@@ -82,8 +82,8 @@ Connectors are available for english people, please use engines_en.json :
 {
   "name": "ISIDORE, what do you have about this author?",
   "alias": "ISIDORE",
-  "icon": "https://www.rechercheisidore.fr/favicon.ico",
-  "_urlTemplate": "https://www.rechercheisidore.fr/search/?q=\"{rft:aufirst?}+{rft:aulast?}\"",
+  "icon": "https://isidore.science/favicon.ico",
+  "_urlTemplate": "https://isidore.science/s?q=\"{rft:aufirst?}+{rft:aulast?}\"",
   "description": "ISIDORE is an academic search engine for arts and humanities in open science.",
   "hidden": false,
   "_urlParams": [],
@@ -92,7 +92,7 @@ Connectors are available for english people, please use engines_en.json :
     "z": "http://www.zotero.org/namespaces/openSearch#",
     "": "http://a9.com/-/spec/opensearch/1.1/"
   },
-  "_iconSourceURI": "https://www.rechercheisidore.fr/favicon.ico"
+  "_iconSourceURI": "https://isidore.science/favicon.ico"
 },`  
 
 ## Crédits

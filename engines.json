@@ -2,8 +2,8 @@
 	{
 		"name": "ISIDORE, aide-moi à trouver ce qu'il/elle a publié.",
 		"alias": "ISIDORE",
-		"icon": "https://www.rechercheisidore.fr/favicon.ico",
-		"_urlTemplate": "https://www.rechercheisidore.fr/search/?creator={rft:aulast?}+{rft:aufirst?}",
+		"icon": "https://isidore.science/favicon.ico",
+		"_urlTemplate": "https://isidore.science/s?q=author:\"{rft:aulast?}, {rft:aufirst?}\"",
 		"description": "ISIDORE est le moteur de recherche académique des SHS.",
 		"hidden": false,
 		"_urlParams": [],
@@ -12,13 +12,13 @@
 			"z": "http://www.zotero.org/namespaces/openSearch#",
 			"": "http://a9.com/-/spec/opensearch/1.1/"
 		},
-		"_iconSourceURI": "https://www.rechercheisidore.fr/favicon.ico"
+		"_iconSourceURI": "https://isidore.science/favicon.ico"
 	},
 	{
 		"name": "ISIDORE, qu'as-tu sur l'auteur/auteure ?",
 		"alias": "ISIDORE",
-		"icon": "https://www.rechercheisidore.fr/favicon.ico",
-		"_urlTemplate": "https://www.rechercheisidore.fr/search/?q=\"{rft:aufirst?}+{rft:aulast?}\"",
+		"icon": "https://isidore.science/favicon.ico",
+		"_urlTemplate": "https://isidore.science/s?q=\"{rft:aufirst?}+{rft:aulast?}\"",
 		"description": "ISIDORE est le moteur de recherche académique des SHS.",
 		"hidden": false,
 		"_urlParams": [],
@@ -27,7 +27,7 @@
 			"z": "http://www.zotero.org/namespaces/openSearch#",
 			"": "http://a9.com/-/spec/opensearch/1.1/"
 		},
-		"_iconSourceURI": "https://www.rechercheisidore.fr/favicon.ico"
+		"_iconSourceURI": "https://isidore.science/favicon.ico"
 	},
 	{
 		"name": "CrossRef Lookup",
