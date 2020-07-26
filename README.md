@@ -1,7 +1,5 @@
 # Connecteurs ISIDORE pour Zotero
 
-(English version above)
-
 ## Enrichir sa bibliothèque Zotero avec ISIDORE
 
 L'outil Zotero permet d'utiliser des moteurs de recherche pour rechercher ou completer des références bibliographiques. Nous proposons ici deux connecteurs ISIDORE pour Zotero permettant d'utiliser ISIDORE pour completer sa bibliothèque de références bibliographiques à partir de recherche sur les auteurs.
@@ -60,11 +58,11 @@ Fermez votre Zotero, Ouvrir le fichier <Zotero>/locate/engines.json (ex. sous Ma
   "_iconSourceURI": "https://isidore.science/favicon.ico"
 },`
 
-### English
+## English
 
 Connectors are available for english people, please use engines_en.json.
 
-### Español
+## Español
 
 Los conectores están disponibles en español.
 
