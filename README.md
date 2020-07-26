@@ -60,9 +60,13 @@ Fermez votre Zotero, Ouvrir le fichier <Zotero>/locate/engines.json (ex. sous Ma
   "_iconSourceURI": "https://isidore.science/favicon.ico"
 },`
 
-### English version
+### English
 
 Connectors are available for english people, please use engines_en.json.
+
+### Español
+
+Los conectores están disponibles en español.
 
 ## Crédits
 
