@@ -27,11 +27,12 @@ Une fenêtre de votre navigateur s'ouvre alors avec la réponses proposées par 
 
 Fermez votre Zotero, Ouvrir le fichier <Zotero>/locate/engines.json (ex. sous Mac : Users/utilisateur/Zotero/locate ou voir https://www.zotero.org/support/zotero_data) dans un éditeur de texte (Atom, TextEdit, etc.) et ajoutez juste après le premier [ le code json contenu dans engines.json ou le code suivant :
 
-`{
+```
+{
   "name": "ISIDORE, aide-moi à trouver ce qu'il/elle a publié.",
   "alias": "ISIDORE",
   "icon": "https://isidore.science/favicon.ico",
-  "_urlTemplate": "https://isidore.science/s?q=author:\"{rft:aulast?}, {rft:aufirst?}\"",
+  "_urlTemplate": "https://isidore.science/s?q=author:\"{rft:aufirst?} {rft:aulast?}\"",
   "description": "ISIDORE est le moteur de recherche académique des SHS.",
   "hidden": false,
   "_urlParams": [],
@@ -56,7 +57,8 @@ Fermez votre Zotero, Ouvrir le fichier <Zotero>/locate/engines.json (ex. sous Ma
     "": "http://a9.com/-/spec/opensearch/1.1/"
   },
   "_iconSourceURI": "https://isidore.science/favicon.ico"
-},`
+},
+```
 
 ## English
 
