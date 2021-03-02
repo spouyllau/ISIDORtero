@@ -70,5 +70,6 @@ Los conectores están disponibles en español.
 
 ## Crédits
 
+Première version : août 2018.
 Auteur : Stéphane Pouyllau -
 Remerciements : Caroline Muller (pour les tests), Sean Takats, Laurent Capelli, Adrien Desseigne, Elifsu Sabuncu.
