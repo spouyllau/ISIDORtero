@@ -27,7 +27,7 @@ Une fenêtre de votre navigateur s'ouvre alors avec la réponses proposées par 
 
 Fermez votre Zotero, Ouvrir le fichier <Zotero>/locate/engines.json (ex. sous Mac : Users/utilisateur/Zotero/locate ou voir https://www.zotero.org/support/zotero_data) dans un éditeur de texte (Atom, TextEdit, etc.) et ajoutez juste après le premier [ le code json contenu dans engines.json ou le code suivant :
 
-```
+```json
 {
   "name": "ISIDORE, aide-moi à trouver ce qu'il/elle a publié.",
   "alias": "ISIDORE",
