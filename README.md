@@ -1,5 +1,7 @@
 # Connecteurs ISIDORE pour Zotero
 
+[[TOC]]
+
 ## Enrichir sa bibliothèque Zotero avec ISIDORE
 
 L'outil Zotero permet d'utiliser des moteurs de recherche pour rechercher ou completer des références bibliographiques. Nous proposons ici deux connecteurs ISIDORE pour Zotero permettant d'utiliser ISIDORE pour completer sa bibliothèque de références bibliographiques à partir de recherche sur les auteurs.
