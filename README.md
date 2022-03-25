@@ -1,6 +1,6 @@
 # Connecteurs ISIDORE pour Zotero
 
-[[TOC]]
+[TOC]
 
 ## Enrichir sa bibliothèque Zotero avec ISIDORE
 
