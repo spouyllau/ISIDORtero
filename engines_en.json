@@ -1,10 +1,10 @@
 
 	{
-		"name": "ISIDORE, help me find what this author has published.",
+		"name": "ISIDORE, help me find what this author has published",
 		"alias": "ISIDORE",
 		"icon": "https://isidore.science/favicon.ico",
 		"_urlTemplate": "https://isidore.science/s?q=author:\"{rft:aufirst?} {rft:aulast?}\"",
-		"description": "ISIDORE is an academic search engine for arts and humanities in open science.",
+		"description": "ISIDORE is an academic search engine for arts and humanities in open science",
 		"hidden": false,
 		"_urlParams": [],
 		"_urlNamespaces": {
@@ -19,7 +19,7 @@
 		"alias": "ISIDORE",
 		"icon": "https://isidore.science/favicon.ico",
 		"_urlTemplate": "https://isidore.science/s?q=\"{rft:aufirst?}+{rft:aulast?}\"",
-		"description": "ISIDORE is an academic search engine for arts and humanities in open science.",
+		"description": "ISIDORE is an academic search engine for arts and humanities in open science",
 		"hidden": false,
 		"_urlParams": [],
 		"_urlNamespaces": {

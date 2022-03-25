@@ -4,7 +4,7 @@
 		"alias": "ISIDORE",
 		"icon": "https://isidore.science/favicon.ico",
 		"_urlTemplate": "https://isidore.science/s?q=author:\"{rft:aufirst?} {rft:aulast?}\"",
-		"description": "ISIDORE es un buscador académico de humanidades y ciencias sociales",
+		"description": "ISIDORE es un buscador académico para los humanidades y ciencias sociales",
 		"hidden": false,
 		"_urlParams": [],
 		"_urlNamespaces": {

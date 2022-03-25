@@ -1,6 +1,6 @@
 
 	{
-		"name": "ISIDORE, aide-moi à trouver ce qu'il/elle a publié.",
+		"name": "ISIDORE, aide-moi à trouver ce qu'il/elle a publié ?",
 		"alias": "ISIDORE",
 		"icon": "https://isidore.science/favicon.ico",
 		"_urlTemplate": "https://isidore.science/s?q=author:\"{rft:aufirst?} {rft:aulast?}\"",
