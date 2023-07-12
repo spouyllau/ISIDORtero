@@ -27,9 +27,9 @@ Une fenêtre de votre navigateur s'ouvre alors avec la réponses proposées par 
 
 #### Versions de Zotero
 
-Ces connecteurs sont compatibles et ont été testés avec [les versions suivantes de Zotero](https://www.zotero.org/support/changelog) :
-- [x] Zotero 6.0.x (mars 2022)
-- [x] > à Zotero 5.0.1 (juillet 2017)
+Ces connecteurs sont compatibles et ont été testés avec toutes [les versions suivantes de Zotero](https://www.zotero.org/support/changelog) :
+- [x] Zotero 6.0.x (> mars 2022)
+- [x] > à Zotero 5.0.1 (> juillet 2017)
 
 #### Installation sur votre ordinateur
 
